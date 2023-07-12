@@ -42,7 +42,10 @@ class _ExampleScreenFourState extends State<ExampleScreenFour> {
           ),
           SliverPadding(
               padding: EdgeInsets.all(20),
-              sliver: SliverPersistentHeader(delegate: ExampleHeaderView(), pinned: false,)),
+              sliver: SliverPersistentHeader(
+                delegate: ExampleHeaderView(),
+                pinned: true,
+              )),
           SliverPadding(
             padding: EdgeInsets.all(20),
             sliver: SliverGrid(

@@ -17,7 +17,7 @@ class _ExampleScreenThreeState extends State<ExampleScreenThree> {
         slivers: <Widget>[
           SliverAppBar(
             pinned: true,
-            snap: false,
+            snap: true,
             floating: true,
             expandedHeight: 300.0,
             flexibleSpace: FlexibleSpaceBar(
